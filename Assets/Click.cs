@@ -18,7 +18,7 @@ public class Click : MonoBehaviour
     void Update()
     {
         Vector3 mouseToScreen=transform.position;
-        
+        Debug.Log("Temp commit");
         if (Input.GetMouseButtonDown(0))
         {
             isClick=true;
